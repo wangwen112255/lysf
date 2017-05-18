@@ -1,0 +1,183 @@
+[ 2016-12-07T13:31:39+08:00 ] 140.207.54.74 /wx.php/Weixin?signature=3868bfeeb39e34d201c58c1543a51fcfa1d6142a&timestamp=1481088699&nonce=151674567&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-12-07T13:31:42+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=2dc875d54fec13cb61a77da9d7b24c025e96dbf5&timestamp=1481088702&nonce=1723818155&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+
+[ 2016-12-07T13:31:46+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=03c46e7372bccda4ce565d32cc4ed74ccf012a95&timestamp=1481088706&nonce=580312550&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-12-07T13:31:52+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=f5fd86844bb90d46c9ed47e1952869a753756287&timestamp=1481088712&nonce=925733456&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-12-07T13:31:58+08:00 ] 140.207.54.74 /wx.php/Weixin?signature=150b7c74cefd8c1c6235f160078472a9c4895e54&timestamp=1481088718&nonce=1692753286&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-12-07T13:32:04+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=71563db1ad44bf6b8ac78d8461451f08f8cf4803&timestamp=1481088724&nonce=705801080&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-12-07T13:32:10+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=5955452467ad0a35bc0e61a13af82043dae440dc&timestamp=1481088730&nonce=2135136604&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-12-07T13:32:16+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=e28806ae8bc7ca7680fc86f38ddf82851330601d&timestamp=1481088736&nonce=718471714&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-12-07T13:32:22+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=e91ab4f2b9a439ff211bcfe731036f02d09953c1&timestamp=1481088742&nonce=345279720&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-12-07T13:32:28+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=d5edf9b3f207d8d2e6df112b357ef741fee4d7f2&timestamp=1481088748&nonce=1260969771&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-12-07T13:32:34+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=c2500bbf573d953f6db71619592658efadc09d98&timestamp=1481088754&nonce=958298365&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-12-07T13:32:40+08:00 ] 140.207.54.74 /wx.php/Weixin?signature=1045fa34a42f50008d183b5864cee995b1150da9&timestamp=1481088760&nonce=1283251912&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-12-07T13:32:46+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=e3eb9fda589aa26eb24eb717982c799e6f968aea&timestamp=1481088766&nonce=1744636783&openid=o15iTwV0KK0TFSrPdjgoF9ffnn6w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-12-07T15:34:18+08:00 ] 58.247.206.154 /wx.php/Weixin?signature=4785daf7ea2710bb8c83ec429bb34fd499c3d0bb&timestamp=1481096058&nonce=825491265&openid=o15iTwY8y9JSv6TvNyLS9SULbsSQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0008s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwY8y9JSv6TvNyLS9SULbsSQ" ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined offset: 0 /data/web/lysf/public_html/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `luu_user` (`subscribe`,`openid`,`nickname`,`sex`,`city`,`province`,`avatar`,`subscribe_time`,`remark`,`groupid`,`reg_type`,`addtime`,`reg_ip`) VALUES ('1','o15iTwY8y9JSv6TvNyLS9SULbsSQ','哈哈','0','','','','2016-12-07 15:34:18','','0','subscribe','2016-12-07 15:34:18','58.247.206.154') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-12-07T15:34:25+08:00 ] 58.247.206.154 /wx.php/Weixin?signature=8d5f015da302d154cbfa4f1d025a006653ac82e5&timestamp=1481096065&nonce=1239390557&openid=o15iTwY8y9JSv6TvNyLS9SULbsSQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+

@@ -1,0 +1,122 @@
+<extend name="Public:layout" />
+<block name="css">
+    <link href="__PUBLIC__/static/css/plugins/switchery/switchery.css" rel="stylesheet">
+    <style>
+        #map_container{
+            height: 400px;
+        }
+    </style>
+</block>
+<block name="content">
+
+    <form class="form-horizontal" action="{:U('insert')}" method="post" id="signupForm">
+    <div class="col-sm-6">
+        <div class="panel panel-info">
+                <div class="panel-heading">
+                    关键词修改
+                </div>
+                <div class="panel-body">
+                    <input type="hidden" name="id" value="">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">关键词名称:</label>
+                        <div class="col-sm-6">
+                            <input id="keyword"  name="keyword" class="form-control" type="text" aria-required="true" aria-invalid="true" class="error">
+                        </div>
+                    </div>
+
+
+                    <!--<div class="form-group">-->
+                    <!--<label class="col-sm-2 control-label">是否与其他活动叠加：</label>-->
+                    <!--<div class="col-sm-8">-->
+                    <!--<input type="checkbox" value="1" class="form-control js-switch" id="is_other" name="is_other">-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">状态：</label>
+                        <div class="col-sm-6">
+                            <input type="checkbox" value="1" class="form-control js-switch" id="restatus" name="restatus" checked>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-3 col-sm-offset-3">
+                            <button class="btn btn-primary" type="submit">提交</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-info" id="art">
+            <div class="panel-heading">
+                文章列表（选择你要显示的文章）
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th data-field="name">请选择</th>
+                        <th data-field="name">名称</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="list1" id="v">
+                        <tr>
+                            <td><input class="article-item" type="radio" name="article_id" value="{$key}" <if condition="$data.article_id eq $key">checked</if> /></td>
+                            <td>{$v}</td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+                {$page}
+            </div>
+        </div>
+    </div>
+</form>
+
+</block>
+<block name="js">
+    <script src="__PUBLIC__/static/js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/validate/messages_zh.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/switchery/switchery.js"></script>
+    <script>
+        //selectArticle
+        var elem = document.querySelectorAll('.js-switch');
+        for (var i=0;i<elem.length;i++){
+            new Switchery(elem[i],{ color: '#64bd63', secondaryColor: '#f00', jackColor: '#fff'});
+        }
+
+        $().ready(function () {
+            var icon = "<i class='fa fa-times-circle'></i> ";
+            $().ready(function () {
+                var icon = "<i class='fa fa-times-circle'></i> ";
+                var rules = {
+                    keyword: {
+                        required:true,
+                        maxlength:20
+
+                    },
+                    article_id: {
+                        required: true,
+
+                    }
+
+                };
+                var message = {
+                    keyword: {
+                        required:"请输入关键词名称",
+                        maxlength:"关键词的长度不能超过20个字符"
+
+                    },
+                    article_id: {
+                        required: "请选择回复图文"
+
+                    }
+                };
+                _validateForm('signupForm',rules, message);
+            });
+
+        });
+    </script>
+</block>

@@ -1,0 +1,58 @@
+<extend name="Public:sui"/>
+<block name="css">
+    <style>
+        .head{
+            color: #ffffff;
+            width: 100px;
+            height: 100px;
+            background: #ff7012;
+            text-align: center;
+        }
+        .total{padding-top: 20px;}
+        .head h5{margin: 0;padding-top: 5px;}
+        .list-block .item-content,.list-block.media-list .item-media,.list-block.media-list .item-inner{padding: 0;}
+        .list-block{margin-top: 1rem;}
+        .item-title-row{padding-top: 5px;}
+        #no-coupon{padding-top: 0.5rem;text-align: center;}
+    </style>
+</block>
+<block name="content">
+    <div class="content">
+        <div class="list-block media-list">
+            <ul>
+                <notempty name="list">
+                    <volist name="list" id="v">
+                        <li>
+                            <div class="item-content">
+                                <div class="item-media">
+                                    <div class="head">
+                                        <div class="total">￥<big>{$v.total}</big></div>
+                                        <h5>x {$v.num} </h5>
+                                    </div>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title-row">
+                                        <div class="item-title">{$v.name}</div>
+                                    </div>
+                                    <div class="item-subtitle">不可叠加使用</div>
+                                    <div class="item-text">
+                                        <notempty name="v['begintime']">{$v.begintime}</notempty>至
+                                        <notempty name="v['endtime']">{$v.endtime}<else/>无限制</notempty>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </volist>
+                <else/>
+                    <li id="no-coupon">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">还没有代金券</div>
+                            </div>
+                        </div>
+                    </li>
+                </notempty>
+            </ul>
+        </div>
+    </div>
+</block>

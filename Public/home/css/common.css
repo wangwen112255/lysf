@@ -1,0 +1,23 @@
+body{background: #f8f8f8;}
+.row{padding: 10px 15px;}
+.weui_tab{position: fixed;bottom: 0; width: 100%;}
+/**隐藏**/
+.dn{display: none;}
+.db{display: block;}
+.dl{display: inline;}
+
+/**颜色**/
+.db-color{color: rgba(0,0,0,.4);}
+.t-desc{color: #888;}
+.money{color: #04BE02;}
+.money-pay{color: #EF4F4F;}
+.money-b{color: #000;}
+
+/**字体**/
+.f10{font-size: 10px;}
+.f12{font-size: 12px;}
+.f14{font-size: 14px;}
+.f16{font-size: 16px;}
+.f17{font-size: 17px;}
+.f20{font-size: 20px;}
+.fb{font-weight: bold;}

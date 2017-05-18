@@ -1,0 +1,91 @@
+<extend name="Public:layout"/>
+<block name="css">
+    <link href="__PUBLIC__/static/css/plugins/switchery/switchery.css" rel="stylesheet">
+</block>
+<block name="content">
+    <div class="col-sm-12">
+        <form class="form-horizontal" action="{:U('save')}" method="post" id="signupForm">
+            <input type="hidden" name="id" value="{$data.id}">
+            <input type="hidden" name="pic" value="{$data.pic}">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    基本信息
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">父类：</label>
+                        <div class="col-sm-8">
+                            <select name="pid" id="pid" class="form-control">
+                                <option value="0">顶级</option>
+                                <notempty name="list">
+                                    <volist name="list" id="v">
+                                        <option value="{$v.id}" <if condition="$v['id'] eq $pid">selected</if> >{$v.name}</option>
+                                    </volist>
+                                </notempty>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">分类名称：</label>
+                        <div class="col-sm-8">
+                            <input id="name" name="name" value="{$data.name}" class="form-control" type="text" aria-required="true" aria-invalid="false"
+                                   class="valid">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">排序：</label>
+                        <div class="col-sm-8">
+                            <input id="sort" name="sort" value="{$data.sort}" class="form-control" type="text" aria-required="true" aria-invalid="false"
+                                   class="valid">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">是否展示：</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" value="1" <if condition="$data['is_show'] eq 1">checked<elseif condition="!isset($data['is_show'])"/>checked<else/></if> class="form-control js-switch" id="status" name="is_show" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">状态：</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" value="1" <if condition="$data['status'] eq 1">checked<elseif condition="!isset($data['status'])"/>checked<else/></if> class="form-control js-switch" id="status" name="status" >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <button class="btn btn-primary" type="submit">提交</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</block>
+<block name="js">
+    <script src="__PUBLIC__/static/js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/validate/messages_zh.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/switchery/switchery.js"></script>
+    <script>
+        // checkbox
+        var elem = document.querySelectorAll('.js-switch');
+        for (var i=0;i<elem.length;i++){
+            new Switchery(elem[i],{ color: '#64bd63', secondaryColor: '#f00', jackColor: '#fff'});
+        }
+
+        $().ready(function () {
+            var icon = "<i class='fa fa-times-circle'></i> ";
+            $().ready(function () {
+                var icon = "<i class='fa fa-times-circle'></i> ";
+                var rules = {
+                    name: "required",
+                };
+                var message = {
+                    name: icon + "请填写分类名称",
+                };
+                _validateForm('signupForm',rules, message);
+            });
+
+        });
+    </script>
+</block>

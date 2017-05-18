@@ -1,0 +1,141 @@
+<extend name="Public:layout"/>
+<block name="css">
+    <link href="__PUBLIC__/home/css/print.css" rel="stylesheet" type="text/css" media="print">
+    <style>
+    .page-heading{display: none;}
+        .left{
+            float: left;
+        }
+        .right              float:right;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .title{text-align: center;}
+        ul{list-style: none;}
+        .print_container{
+            padding: 20px;
+            width: 188px;
+        }
+        .section1{
+        }
+        .section2 label{
+            display: block;
+        }
+        .section3 label{
+            display: block;
+        }
+        .section4{
+        }
+        .section4 .total label{
+            display: block;
+        }
+        .section4 .other_fee{
+            border-bottom: 1px solid #DADADA;
+        }
+        .section5 label{
+            display: block;
+        }
+        .wrapper-content{padding-left: 0;padding-right: 0;}
+        .btn-primary{margin-left: 20px;}
+    </style>
+</block>
+<block name="content">
+    <div class="print_container" id="bill">
+        <h1 class="title">鲁豫食府</h1>
+        <span>******************************</span>
+        <!--<div class="section2">-->
+            <!--<label>期望送达时间：5678</label>-->
+            <!--<label>订单备注：1111</label>-->
+        <!--</div>-->
+        <!--<span>******************************</span>-->
+        <div class="section3">
+            <label>订单编号：{$order.trade_no}</label>
+            <label>下单时间：{$order.pay_time}</label>
+        </div>
+        <span>******************************</span>
+        <div class="section4">
+            <div style="border-bottom: 1px solid #DADADA;">
+                <!--<ul>
+                    <div>菜单名称     数量    金额</div>
+                    <li>米饭米饭 米饭 米饭 米饭 米饭 米饭       2    28元</li>
+                    <li>米饭      2    28元</li>
+                </ul>-->
+                <table style="width: 100%;">
+                    <thead>
+                    <tr>
+                        <td width="60%">菜单名称</td>
+                        <td width="20%">数量</td>
+                        <td width="20%">金额</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="order['goods']" id="g">
+                    <tr>
+                        <td>{$g.good_name}</td>
+                        <td>{$g.good_num}</td>
+                        <td>{$g['good_price'] * $g['good_num']}</td>
+                    </tr>
+                    </volist>
+                    </tbody>
+                </table>
+            </div>
+            <div class="other_fee">
+                <!--<div class="canh">-->
+                    <!--<label class="left">餐盒费</label>-->
+                    <!--<label class="right">0</label>-->
+                    <!--<div class="clearfix"></div>-->
+                <!--</div>-->
+                <!--<div class="peis">-->
+                    <!--<label class="left">配送费</label>-->
+                    <!--<label class="right">0</label>-->
+                    <!--<div class="clearfix"></div>-->
+                <!--</div>-->
+                <notempty name="order['coupon']">
+                    <div class="manj">
+                        <label class="left">{$order['coupon']['name']}</label>
+                        <label class="right">-{$order['coupon']['total']}</label>
+                        <div class="clearfix"></div>
+                    </div>
+                </notempty>
+            </div>
+            <div class="total">
+                <label class="left">总计</label>
+                <label class="right">{$order.pay_total}</label>
+                <div class="clearfix"></div>
+            </div>
+            <div style="text-align: right;">
+                <label>{$status[$order['pay_status']]}</label>
+            </div>
+            <span>******************************</span>
+        </div>
+        <div class="section5">
+            <notempty name="order['is_ziti']">
+                <label>自提</label>
+                <else/>
+                <label>姓名：{$order.user}</label>
+                <label>电话：{$order.mobile}</label>
+                <label>地址：{$order.address}</label>
+            </notempty>
+        </div>
+        <span>******************************</span>
+    </div>
+    <button type="button" class="btn btn-primary" id="toPrint" onclick="_printBill();">打印</button>
+</block>
+<block name="js">
+    <script src="__PUBLIC__/static/js/plugins/jqprint/jquery-migrate-1.2.1.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/jqprint/jquery.jqprint-0.3.js"></script>
+    <script>
+        function _printBill(){
+
+           $('#toPrint').hide();
+           window.print();return;
+            $("#bill").jqprint({
+                debug: false, //如果是true则可以显示iframe查看效果（iframe默认高和宽都很小，可以再源码中调大），默认是false
+                importCSS: true, //true表示引进原来的页面的css，默认是true。（如果是true，先会找$("link[media=print]")，若没有会去找$("link")中的css文件）
+                printContainer: true, //表示如果原来选择的对象必须被纳入打印（注意：设置为false可能会打破你的CSS规则）。
+                operaSupport: true//表示如果插件也必须支持歌opera浏览器，在这种情况下，它提供了建立一个临时的打印选项卡。默认是true
+            });
+        }
+    </script>
+</block>

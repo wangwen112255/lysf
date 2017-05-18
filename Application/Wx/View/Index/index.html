@@ -1,0 +1,122 @@
+<extend name="Public:layout"/>
+<block name="css">
+    <style>
+        .left,.right{height: 100%;}
+        .left{background: #f0f0f0;}
+        .right{background: #fff;}
+        .ui-list {background: #f0f0f0;}
+        .ui-list li.active{background: #fff;}
+        .item{height: 100%;display: none;}
+        .item.active{display: block;}
+    </style>
+</block>
+<block name="header"></block>
+<block name="content">
+    <section id="tab" class="full">
+        <div class="ui-col ui-col-25 left">
+            <ul class="ui-list ui-list-pure ui-border-tb">
+                <li class="ui-border-t active">
+                    <h4>热菜</h4>
+                </li>
+                <li class="ui-border-t">
+                    <h4>凉菜</h4>
+                </li>
+                <li class="ui-border-t">
+                    <h4>特色菜</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="ui-col ui-col-75 right">
+            <ul class="ui-grid-trisect ui-border-b item active">
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫1 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫1 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫1 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+            </ul>
+            <ul class="ui-grid-trisect ui-border-b item">
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫 2<span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫2 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫2 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+            </ul>
+            <ul class="ui-grid-trisect ui-border-b item">
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫3 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫3 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+                <li>
+                    <div class="ui-grid-trisect-img">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/190x284)"></span>
+                    </div>
+                    <h4>高尔夫3 <span>2.3M</span></h4>
+                    <button class="ui-btn-s ui-btn-progress">免费</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+</block>
+<block name="footer"></block>
+<block name="js">
+    <script>
+        (function (){
+            $('.ui-list li').click(function () {
+                var index = $(this).index();
+                var active = $(this).hasClass('active');
+                if(!active){
+                    $('.ui-list li').removeClass('active');
+                    $(this).addClass('active');
+                    _setShow(index);
+                }
+            })
+
+            function _setShow(index){
+                $('.item').hide();
+                $('.item').eq(index).show();
+            }
+        })();
+    </script>
+</block>

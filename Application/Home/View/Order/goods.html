@@ -1,0 +1,38 @@
+<extend name="Public:layout" />
+<block name="css">
+    <link href="__PUBLIC__/static/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+</block>
+<block name="content">
+    <div class="col-sm-12">
+
+        <table data-toggle="table" data-click-to-select="true" data-mobile-responsive="true">
+            <thead>
+            <tr>
+                <th data-field="name">名称</th>
+                <th data-field="pic">图片</th>
+                <th data-field="price">价格</th>
+                <th data-field="num">数量</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="list" id="v">
+                <tr id="item{$v.id}">
+                    <td>{$v.name}</td>
+                    <td><img src="{$v.pic|getPicThumb='s_'}" /></td>
+                    <td>{$v.good_price}</td>
+                    <td>{$v.good_num}</td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+
+    </div>
+</block>
+
+<block name="js">
+    <!-- Bootstrap table -->
+    <script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+
+</block>

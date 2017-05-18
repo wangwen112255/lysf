@@ -1,0 +1,450 @@
+[ 2016-12-10T13:47:15+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:48:58+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:49:38+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:50:28+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:51:20+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:52:10+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:54:24+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:55:07+08:00 ] 123.149.214.153 /api.php/File/upfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: thumbsize /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 19 行.
+NOTIC: [8] Undefined index: path /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 28 行.
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:55:17+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:58:03+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T13:58:39+08:00 ] 123.149.214.153 /api.php/File/upfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined index: thumbsize /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 19 行.
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+
+[ 2016-12-10T14:00:19+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:01:08+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:02:40+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:03:26+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:04:36+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:07:19+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:08:25+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:09:30+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:11:06+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:11:46+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:15:31+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:16:06+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:16:36+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:17:11+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:17:46+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:18:50+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:20:22+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:20:45+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:21:19+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:22:00+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:22:48+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T14:23:31+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:05:54+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:06:21+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:06:42+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:06:59+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+
+[ 2016-12-10T15:07:35+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:07:49+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+
+[ 2016-12-10T15:08:11+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:24:53+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:26:05+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:26:26+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:26:38+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+
+[ 2016-12-10T15:26:51+08:00 ] 115.60.21.125 /api.php/File/upfile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: rootPath /data/web/lysf/public_html/Application/Api/Controller/FileController.class.php 第 30 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/web/lysf/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+

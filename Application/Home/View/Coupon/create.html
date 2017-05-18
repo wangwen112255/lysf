@@ -1,0 +1,179 @@
+<extend name="Public:layout" />
+<block name="css">
+    <link href="__PUBLIC__/static/css/plugins/switchery/switchery.css" rel="stylesheet">
+    <link href="__PUBLIC__/static/css/plugins/datapicker/datetimepicker.min.css" rel="stylesheet">
+    <link type="text/css" href="https://cdn.staticfile.org/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="__PUBLIC__/static/js/plugins/timepicker-Addon/jquery-ui-timepicker-addon.css">-->
+    <link rel="stylesheet" href="//cdn.bootcss.com/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.css">
+</block>
+<block name="content">
+
+    <div class="col-sm-12">
+        <form class="form-horizontal" action="{:U('save')}" method="post" id="signupForm">
+            <input type="hidden" name="id" value="{$data.id}">
+            <div class="col-sm-8">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    基本信息
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">活动名称：</label>
+                        <div class="col-sm-8">
+                            <input id="name" name="name" value="{$data.name}" class="form-control" type="text" aria-required="true" aria-invalid="true">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">金额：</label>
+                        <div class="col-sm-3">
+                            <input id="total" name="total" value="{$data.total}" class="form-control" type="text" aria-required="true" aria-invalid="true">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">开始时间：</label>
+                        <div class="col-sm-3">
+                            <input id="begintime" name="begintime" value="{$data.begintime}" class="form-control" type="text" aria-required="true" aria-invalid="false">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">结束时间：</label>
+                        <div class="col-sm-3">
+                            <input id="endtime" name="endtime" value="{$data.endtime}" class="form-control" type="text" aria-required="true" aria-invalid="false">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">最低消费金额</label>
+                        <div class="col-sm-3">
+                            <input id="min_total" name="min_total" value="{$data.min_total|default=0}" placeholder="" class="form-control" type="text" aria-required="true" aria-invalid="false" class="valid">
+                            <span class="help-block m-b-none">0为不限制</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">数量</label>
+                        <div class="col-sm-3">
+                            <input id="num" name="num" value="{$data.num}" placeholder="" class="form-control" type="text" aria-required="true" aria-invalid="false" class="valid">
+                            <span class="help-block m-b-none">0为不限制</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">每个用户可用数量</label>
+                        <div class="col-sm-3">
+                            <input id="available_num" name="available_num" value="{$data.available_num|default=0}" placeholder="" class="form-control" type="text" aria-required="true" aria-invalid="false" class="valid">
+                            <span class="help-block m-b-none">0为不限制</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">状态：</label>
+                        <div class="col-sm-8">
+                            <input type="checkbox" value="1" class="form-control js-switch" id="status" name="status" <if condition="$data['status'] eq 1">checked<elseif condition="!isset($data['status'])"/>checked</if>>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <button class="btn btn-primary" type="submit">提交</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    商品列表（不选择商品视为不限制）
+                </div>
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th data-field="id" data-checkbox="true"><input type="checkbox" id="select-all">全选</th>
+                            <th data-field="name">名称</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="goodsList" id="v">
+                            <tr>
+                                <td><input class="goods-item" type="checkbox" name="goods_id[]" value="{$v.id}" <if condition="in_array($v['id'], $data['goods_id'])">checked</if> /></td>
+                                <td>{$v.name}</td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </form>
+    </form>
+    </div>
+</block>
+<block name="js">
+    <script src="__PUBLIC__/static/js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/validate/messages_zh.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/switchery/switchery.js"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="//cdn.bootcss.com/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.js"></script>
+    <!--<script src="__PUBLIC__/static/js/plugins/timepicker-Addon/jquery-ui-timepicker-addon.js"></script>-->
+    <script src="__PUBLIC__/static/js/plugins/timepicker-Addon/jquery.ui.datepicker-zh-CN.js.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/timepicker-Addon/jquery-ui-timepicker-zh-CN.js"></script>
+    <!--<script src="__PUBLIC__/static/js/plugins/datapicker/locales/bootstrap-datetimepicker.zh-CN.js"></script>-->
+    <script>
+        // checkbox
+        var elem = document.querySelectorAll('.js-switch');
+        for (var i=0;i<elem.length;i++){
+            new Switchery(elem[i],{ color: '#64bd63', secondaryColor: '#f00', jackColor: '#fff'});
+        }
+//        $('#begintime').datetimepicker({
+//            inline:true
+//        });
+        var startDateTextBox = $('#begintime');
+        var endDateTextBox = $('#endtime');
+
+        $.timepicker.datetimeRange(
+                startDateTextBox,
+                endDateTextBox,
+                {
+                    dateFormat: 'yy-mm-dd',
+                    minInterval: (1000*60*60), // 1hr
+                }
+        );
+
+        $().ready(function () {
+            var icon = "<i class='fa fa-times-circle'></i> ";
+            $().ready(function () {
+                var icon = "<i class='fa fa-times-circle'></i> ";
+                var rules = {
+                    name: "required",
+                    total: {
+                        required: true,
+                        number: true
+                    },
+                    begintime: "required",
+                    endtime: "required",
+                };
+                var message = {
+                    name: icon + "请填写名称",
+                    total: {
+                        required: icon + "请填写优惠值",
+                        number: icon + '请输入合法数值'
+                    },
+                    begintime: icon + "请填写开始时间",
+                    endtime: icon + "请填写结束时间",
+                };
+                _validateForm('signupForm',rules, message);
+            });
+
+        });
+
+        $('#select-all').click(function(){
+            var list = $('input.goods-item');
+            for (var i=0;i<list.length;i++){
+                list[i].checked = this.checked
+            }
+        });
+
+        $('input.goods-item').click(function () {
+            if(!this.checked){
+                $('#select-all').attr('checked', false);
+            }
+        });
+    </script>
+</block>

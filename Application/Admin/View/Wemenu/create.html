@@ -1,0 +1,214 @@
+<extend name="Public:layout" />
+<block name="css">
+    <link href="__PUBLIC__/static/css/plugins/switchery/switchery.css" rel="stylesheet">
+    <style>
+        #map_container{
+            height: 400px;
+        }
+    </style>
+</block>
+<block name="content">
+
+    <form class="form-horizontal" action="{:U('insert')}" method="post" id="signupForm">
+    <div class="col-sm-6">
+        <div class="panel panel-info">
+                <div class="panel-heading">菜单添加
+                </div>
+                <div class="panel-body">
+                    <input type="hidden" name="id" value="">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">菜单名称:</label>
+                        <div class="col-sm-6">
+                            <input id="we_name"  name="we_menu_name" class="form-control" type="text" aria-required="true" aria-invalid="true" class="error">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">菜单级别:</label>
+                        <div class="col-sm-6">
+                            <input id=""  name="in"  disabled class="form-control" type="text" aria-required="true"  placeholder="请在右侧菜单列表中选择您的父菜单" aria-invalid="true" class="error">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">菜单操作:</label>
+                        <div class="col-sm-6">
+                             <select onchange="changeType()"  class="form-control" class="error" aria-required="true" id="type" name="we_menu_type">
+                                 <option value="">请选择菜单类型</option>
+                                 <option value="view">网页跳转</option>
+                                 <option value="click">点击回复</option>
+                             </select>
+                        </div>
+                    </div>
+                    <div id="url" style="display: none" class="form-group">
+                        <label class="col-sm-3 control-label">菜单操作URL:</label>
+                        <div class="col-sm-6">
+                            <input  id="urlval" name="we_menu_typeval"   placeholder="请输入正确的URL地址，示例：http://wwww.baidu.com" class="form-control" type="text" aria-required="true" aria-invalid="true" class="error">
+                        </div>
+                    </div>
+                    <div id="click" style="display: none" class="form-group">
+                        <label class="col-sm-3 control-label">微信点击回复内容:</label>
+                        <div class="col-sm-6">
+                            <textarea  id="clickval" style="resize:none; width:400px; height:50px;" name="we_menu_typeval"  type="text" aria-required="true" aria-invalid="true"></textarea>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <!--<div class="form-group">-->
+                    <!--<label class="col-sm-2 control-label">是否与其他活动叠加：</label>-->
+                    <!--<div class="col-sm-8">-->
+                    <!--<input type="checkbox" value="1" class="form-control js-switch" id="is_other" name="is_other">-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">状态：</label>
+                        <div class="col-sm-6">
+                            <input type="checkbox" value="1" class="form-control js-switch" id="status" name="status" checked>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-3 col-sm-offset-3">
+                            <button class="btn btn-primary" type="submit">提交</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+    <div class="col-sm-4">
+        <div class="panel panel-info" id="art">
+            <div class="panel-heading">
+                一级菜单列表（选择菜单父菜单）
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th data-field="name">请选择</th>
+                        <th data-field="name">菜单名称</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><input class="article-item" type="radio" name="we_menu_leftid" value="0"  /></td>
+                        <td>父菜单</td>
+                    </tr>
+                    <volist name="list1" id="v">
+
+                        <tr>
+                            <td><input class="article-item" type="radio" name="we_menu_leftid" value="{$key}" /></td>
+                            <td>{$v}</td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</form>
+
+</block>
+<block name="js">
+    <script src="__PUBLIC__/static/js/plugins/validate/jquery.validate.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/validate/messages_zh.min.js"></script>
+    <script src="__PUBLIC__/static/js/plugins/switchery/switchery.js"></script>
+    <script>
+        //selectArticle
+        var elem = document.querySelectorAll('.js-switch');
+        for (var i=0;i<elem.length;i++){
+            new Switchery(elem[i],{ color: '#64bd63', secondaryColor: '#f00', jackColor: '#fff'});
+        }
+        $.validator.addMethod("isLink", function(value, element) {
+            var links =/^([hH][tT]{2}[pP]:\/\/|[hH][tT]{2}[pP][sS]:\/\/)(([A-Za-z0-9-~]+)\.)+([A-Za-z0-9-~\/])+$/;
+            return this.optional(element) || (links.test(value));
+        }, "请输进去正确的链接地址");
+        $.validator.addMethod("isLength", function(value, element) {
+            var name=$("#we_name").val();
+
+            if(value==0 && name.length>4){
+            return false;
+            }else if(name.length>7)
+                return false;
+            else
+                return true;
+                },"如果为父菜单，菜单长度不能超过4,如果为子菜单,长度不能超过7");
+        function changeType(){
+            var  sele=$("#type option:selected").val();
+            if(sele=="view"){
+                $("#urlval").attr("name","we_menu_typeval");
+                $("#url").show();
+                $("#click").hide();
+                $("#clickval").attr("name","bin");
+            }
+            else if(sele=="click"){
+                $("#urlval").attr("name","bin");
+                $("#url").hide();
+                $("#clickval").attr("name","we_menu_typeval");
+                $("#click").show();
+
+            }
+            else{
+                $("#url").hide();
+                $("#click").hide();
+            }
+
+        }
+        //var  sele=$("#type option:selected").val();
+      //
+
+                $().ready(function () {
+            var icon = "<i class='fa fa-times-circle'></i> ";
+            $().ready(function () {
+                var icon = "<i class='fa fa-times-circle'></i> ";
+                var rules = {
+                    we_menu_name: {
+                        required:true,
+                        maxlength:7
+
+                    },
+                    we_menu_leftid:{
+                        required:true,
+                        isLength:true
+
+
+                },
+                    we_menu_typeval: {
+                        required: true
+
+                    },
+                    we_menu_type: {
+                        required: true,
+
+                    }
+
+                };
+                var message = {
+                    we_menu_name: {
+                        required:"请输入菜单名称",
+                        maxlength:"父菜单长度不能超过四个字符，子菜单长度不能超过七个字符"
+
+                    },
+                    we_menu_typeval: {
+                        required: "请输入菜单的操作",
+
+                    },
+                    we_menu_leftid:{
+                        required:"请选择菜单级别"
+
+                    },
+                    we_menu_type: {
+                        required: "请选择菜单类型"
+
+                    }
+                };
+                _validateForm('signupForm',rules, message);
+            });
+
+        });
+    </script>
+</block>

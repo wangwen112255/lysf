@@ -1,0 +1,2466 @@
+[ 2016-12-14T08:20:00+08:00 ] 112.65.193.15 /wx.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T08:50:39+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=95ce79d62407b5703e09794b9443a4392ef717b2&timestamp=1481676639&nonce=1727643914&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-12-14T08:50:40+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=f56add21908cdde91ace456fd5253825e831e5e1&timestamp=1481676640&nonce=1143284615&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-12-14T08:50:41+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T08:50:42+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html?&code=031bARrX0YPaGY1fWuqX0ng2sX0bARrx&state=315ded0233c755e3fd44eb6e9dec9362
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-12-14T08:50:49+08:00 ] 123.151.138.56 /wx.php/Dish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `luu_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name` FROM `luu_goods_category` WHERE `status` = 1 AND `is_show` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 1  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 3  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 4  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 6  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-12-14T08:50:51+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=447bd465178b49dd107f6c5045fb050ce526329c&timestamp=1481676651&nonce=221823753&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-12-14T09:12:21+08:00 ] 115.60.19.24 /wx.php/Takeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:12:21+08:00 ] 115.60.19.24 /wx.php/Takeout?&code=011xpQgy1ATjje0RJFhy1Om8hy1xpQgO&state=7a6e9b4c13c3c6841e57e79430e44dca
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-12-14T09:12:27+08:00 ] 115.60.19.24 /wx.php/Dish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `luu_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `luu_goods_category` WHERE `status` = 1 AND `is_show` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 6  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-12-14T09:12:30+08:00 ] 101.226.66.180 /wx.php/Takeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:12:31+08:00 ] 112.65.193.14 /wx.php/Takeout?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:12:36+08:00 ] 101.226.51.229 /wx.php/Takeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:12:38+08:00 ] 101.226.85.67 /wx.php/Takeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:14:10+08:00 ] 115.60.19.24 /wx.php/Dish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `luu_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `luu_goods_category` WHERE `status` = 1 AND `is_show` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 2  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 6  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-12-14T09:14:14+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html?id=1&num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+
+[ 2016-12-14T09:14:17+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html?id=1&num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-12-14T09:14:22+08:00 ] 115.60.19.24 /wx.php/Dish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `luu_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `luu_goods_category` WHERE `status` = 1 AND `is_show` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 6  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-12-14T09:14:35+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-12-14T09:15:00+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-12-14T09:15:11+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-12-14T09:15:16+08:00 ] 101.226.33.208 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:15:20+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-12-14T09:15:29+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-12-14T09:15:32+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-12-14T09:15:33+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-12-14T09:15:34+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-12-14T09:15:35+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-12-14T09:15:37+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-12-14T09:15:46+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-12-14T09:15:48+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-12-14T09:15:49+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-12-14T09:15:49+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-12-14T09:15:49+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-12-14T09:15:49+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-12-14T09:15:50+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-12-14T09:15:50+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-12-14T09:16:03+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:16:37+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html?id=1&num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:18:09+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html?id=1&num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:18:09+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html?id=1&num=2&code=001fMLfa260DIQ0pwmea2VcSfa2fMLfv&state=04e39aba7a9d5a5ce745c62cbe5152c3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-12-14T09:18:19+08:00 ] 101.226.89.115 /wx.php/Takeout/index.html?id=1&num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:19:46+08:00 ] 115.60.19.24 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+
+[ 2016-12-14T09:19:46+08:00 ] 115.60.19.24 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0006s ]
+
+[ 2016-12-14T09:19:46+08:00 ] 115.60.19.24 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0006s ]
+
+[ 2016-12-14T09:19:46+08:00 ] 115.60.19.24 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-12-14T09:19:48+08:00 ] 115.60.19.24 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0007s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-12-14T09:19:56+08:00 ] 115.60.19.24 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-12-14T09:20:01+08:00 ] 115.60.19.24 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0008s ]
+
+[ 2016-12-14T09:20:01+08:00 ] 115.60.19.24 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-12-14T09:21:28+08:00 ] 115.60.19.24 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-12-14T09:23:17+08:00 ] 115.60.19.24 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-12-14T09:26:34+08:00 ] 115.60.19.24 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-12-14T09:26:52+08:00 ] 115.60.19.24 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-12-14T09:34:30+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=1b4be313ff7352b28e7dfa53835d111a0085458c&timestamp=1481679270&nonce=1684544306&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-12-14T09:34:32+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:34:33+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html?&code=021VX0OW0bs8bY1PmFLW0lv4OW0VX0O1&state=bae8ebff0722adedfea40fab3383449b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-12-14T09:34:46+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=d00f7ec1adcecbfb1efcfa6fc66bc501a0a8ead9&timestamp=1481679286&nonce=2142654500&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-12-14T09:34:50+08:00 ] 140.207.54.74 /wx.php/Weixin?signature=330148d023a09183ff96d13a1cb2588fe986fd59&timestamp=1481679290&nonce=672026475&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-12-14T09:34:51+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-12-14T09:34:57+08:00 ] 123.151.138.56 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+
+[ 2016-12-14T09:34:58+08:00 ] 123.151.138.56 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0007s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 102 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-12-14T09:35:07+08:00 ] 123.151.138.56 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: coupon_total /data/web/lysf/public_html/Application/Wx/Common/function.php 第 193 行.
+NOTIC: [8] Undefined index: discount /data/web/lysf/public_html/Application/Wx/Common/function.php 第 197 行.
+NOTIC: [8] Undefined index: id /data/web/lysf/public_html/Application/Wx/Common/function.php 第 211 行.
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `luu_order` (`openid`,`pay_total`,`total`,`meno`,`coupon_id`,`is_ziti`,`coupon_total`,`user_id`,`trade_no`,`addtime`) VALUES ('o15iTwV7iFj7OiyTqisJsPL_FmkU','20.5','23.5','玉米羹','1','1','3.00','3','16123093505','2016-12-14 09:35:05') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `luu_order_goods` [ RunTime:0.0005s ]
+SQL: INSERT INTO `luu_order_goods` (`order_id`,`good_id`,`good_num`,`good_price`,`good_name`,`good_pic`) VALUES ('32','64','1','18.00','绝味鸭腿饭','/Public/Upload/Goods/584ba96ced0d5.jpg') [ RunTime:0.0003s ]
+SQL: INSERT INTO `luu_order_goods` (`order_id`,`good_id`,`good_num`,`good_price`,`good_name`,`good_pic`) VALUES ('32','102','1','5.50','爱氏晨曦纯牛奶','/Public/Upload/Goods/584f6844783e5.jpg') [ RunTime:0.0002s ]
+
+[ 2016-12-14T09:35:34+08:00 ] 123.151.138.56 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `luu_order` SET `openid`='o15iTwV7iFj7OiyTqisJsPL_FmkU',`pay_total`='20.5',`total`='23.5',`meno`='玉米羹',`coupon_id`='1',`is_ziti`='1',`coupon_total`='3.00',`user_id`='3',`trade_no`='16123093533',`addtime`='2016-12-14 09:35:33' WHERE `id` = 32 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_address` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `luu_user_address` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" AND is_default=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `luu_user_address` SET `is_default`='0' WHERE ( id=2 ) [ RunTime:0.0002s ]
+SQL: UPDATE `luu_user_address` SET `is_default`='1' WHERE ( id=1 ) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_order_address` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luu_order_address` WHERE ( order_id=32 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `luu_order_address` (`order_id`,`username`,`mobile`,`address`) VALUES ('32','小林','15332323232','郑州市 郑东新区 原盛国际2号楼2单元6楼603') [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: res /data/web/lysf/public_html/Application/Wx/Common/function.php 第 269 行.
+
+[ 2016-12-14T09:37:30+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=3dee4c26f472051221595379c32fe767f8b57486&timestamp=1481679450&nonce=512761257&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-12-14T09:37:36+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=2f740ad095f5bcdfab0b36d154ee18c6ae7da49e&timestamp=1481679456&nonce=575613600&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-12-14T09:37:36+08:00 ] 123.151.138.56 /wx.php/Dish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:37:36+08:00 ] 123.151.138.56 /wx.php/Dish/index.html?&code=001pcS4T0PZU0V11Wh7T0PIN4T0pcS4j&state=5db14db2ce035f797be9e78b05da9696
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0016s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwU7lm--ruZLGQVFew7IeJdg" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods_category` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `luu_goods_category` WHERE `status` = 1 AND `is_show` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 5  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 6  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-12-14T09:37:46+08:00 ] 117.185.27.115 /wx.php/Dish/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:37:48+08:00 ] 140.207.54.74 /wx.php/Weixin?signature=f67016e7836f79f450f0e75fa61cc9d3e3eff42f&timestamp=1481679468&nonce=1855237456&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-12-14T09:37:49+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=6bf77cc168d526b150fafa85980c4627e0f6c601&timestamp=1481679469&nonce=1546332444&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-12-14T09:37:57+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=1904aa9d7f1d0838ee194111332abdeef1c47917&timestamp=1481679477&nonce=1328744197&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-12-14T09:38:49+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=edba58f776203316b8fff6f9178e06a3dddec4a1&timestamp=1481679529&nonce=1359077396&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-12-14T09:38:51+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=d408c66a9534ccc69bebe7449934a4d2271ad7aa&timestamp=1481679530&nonce=195635649&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-12-14T09:39:21+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-12-14T09:39:33+08:00 ] 123.151.138.56 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+
+[ 2016-12-14T09:39:34+08:00 ] 123.151.138.56 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 102 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-12-14T09:39:42+08:00 ] 123.151.138.56 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0006s ]
+
+[ 2016-12-14T09:39:49+08:00 ] 123.151.138.56 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0006s ]
+
+[ 2016-12-14T09:40:40+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=3e3220616fdc46791198e0f3af1ee85d391bdaa4&timestamp=1481679640&nonce=1636586786&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-12-14T09:40:41+08:00 ] 140.207.54.74 /wx.php/Weixin?signature=ad8fb911e229c423d3954b5fad7f350d1ddfcc40&timestamp=1481679641&nonce=1583444705&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-12-14T09:40:41+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-12-14T09:40:50+08:00 ] 123.151.138.56 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+
+[ 2016-12-14T09:40:50+08:00 ] 123.151.138.56 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 102 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-12-14T09:40:58+08:00 ] 123.151.138.56 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: coupon_total /data/web/lysf/public_html/Application/Wx/Common/function.php 第 193 行.
+NOTIC: [8] Undefined index: discount /data/web/lysf/public_html/Application/Wx/Common/function.php 第 197 行.
+NOTIC: [8] Undefined index: id /data/web/lysf/public_html/Application/Wx/Common/function.php 第 211 行.
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `luu_order` (`openid`,`pay_total`,`total`,`meno`,`coupon_id`,`is_ziti`,`coupon_total`,`user_id`,`trade_no`,`addtime`) VALUES ('o15iTwV7iFj7OiyTqisJsPL_FmkU','20.5','23.5','紫菜蛋花汤','1','1','3.00','3','16123094058','2016-12-14 09:40:58') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_order_goods` [ RunTime:0.0004s ]
+SQL: INSERT INTO `luu_order_goods` (`order_id`,`good_id`,`good_num`,`good_price`,`good_name`,`good_pic`) VALUES ('33','64','1','18.00','绝味鸭腿饭','/Public/Upload/Goods/584ba96ced0d5.jpg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `luu_order_goods` (`order_id`,`good_id`,`good_num`,`good_price`,`good_name`,`good_pic`) VALUES ('33','102','1','5.50','爱氏晨曦纯牛奶','/Public/Upload/Goods/584f6844783e5.jpg') [ RunTime:0.0001s ]
+
+[ 2016-12-14T09:41:00+08:00 ] 101.226.33.226 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:41:47+08:00 ] 123.151.138.56 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `luu_order` SET `openid`='o15iTwV7iFj7OiyTqisJsPL_FmkU',`pay_total`='23.5',`total`='23.5',`meno`='紫菜蛋花汤',`coupon_id`='0',`is_ziti`='1',`coupon_total`='0',`user_id`='3',`trade_no`='16123094147',`addtime`='2016-12-14 09:41:47' WHERE `id` = 33 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_address` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `luu_user_address` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" AND is_default=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `luu_user_address` SET `is_default`='1' WHERE ( id=1 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_order_address` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luu_order_address` WHERE ( order_id=33 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `luu_order_address` (`order_id`,`username`,`mobile`,`address`) VALUES ('33','小林','15332323232','郑州市 郑东新区 原盛国际2号楼2单元6楼603') [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: res /data/web/lysf/public_html/Application/Wx/Common/function.php 第 269 行.
+
+[ 2016-12-14T09:42:08+08:00 ] 123.151.138.56 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `luu_order` SET `openid`='o15iTwV7iFj7OiyTqisJsPL_FmkU',`pay_total`='23.5',`total`='23.5',`meno`='紫菜蛋花汤',`coupon_id`='0',`is_ziti`='1',`coupon_total`='0',`user_id`='3',`trade_no`='16123094207',`addtime`='2016-12-14 09:42:07' WHERE `id` = 33 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `luu_user_address` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `luu_user_address` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" AND is_default=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `luu_user_address` SET `is_default`='0' WHERE ( id=1 ) [ RunTime:0.0002s ]
+SQL: UPDATE `luu_user_address` SET `is_default`='1' WHERE ( id=2 ) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_order_address` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luu_order_address` WHERE ( order_id=33 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `luu_order_address` SET `order_id`='33',`username`='木木',`mobile`='15336363636',`address`='郑州市 郑东新区 金水东路东风南路原盛国际2号楼2单元602' WHERE ( id=2 ) [ RunTime:0.0043s ]
+
+[ 2016-12-14T09:42:23+08:00 ] 123.149.208.159 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-12-14T09:42:25+08:00 ] 115.239.212.10 /wx.php/takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:43:54+08:00 ] 123.149.208.159 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU'  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwV7iFj7OiyTqisJsPL_FmkU' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=3 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-12-14T09:44:15+08:00 ] 123.149.208.159 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: coupon_total /data/web/lysf/public_html/Application/Wx/Common/function.php 第 204 行.
+NOTIC: [8] Undefined index: id /data/web/lysf/public_html/Application/Wx/Common/function.php 第 211 行.
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `luu_order` (`openid`,`pay_total`,`total`,`meno`,`coupon_id`,`is_ziti`,`coupon_total`,`user_id`,`trade_no`,`addtime`) VALUES ('o15iTwV7iFj7OiyTqisJsPL_FmkU','18','18','玉米羹','0','1','0','3','16123094413','2016-12-14 09:44:13') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `luu_order_goods` [ RunTime:0.0005s ]
+SQL: INSERT INTO `luu_order_goods` (`order_id`,`good_id`,`good_num`,`good_price`,`good_name`,`good_pic`) VALUES ('34','64','1','18.00','绝味鸭腿饭','/Public/Upload/Goods/584ba96ced0d5.jpg') [ RunTime:0.0002s ]
+
+[ 2016-12-14T09:44:42+08:00 ] 123.149.208.159 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: discount /data/web/lysf/public_html/Application/Wx/Common/function.php 第 197 行.
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `luu_order` SET `openid`='o15iTwV7iFj7OiyTqisJsPL_FmkU',`pay_total`='15',`total`='18',`meno`='玉米羹',`coupon_id`='1',`is_ziti`='1',`coupon_total`='3.00',`user_id`='3',`trade_no`='16123094442',`addtime`='2016-12-14 09:44:42' WHERE `id` = 34 [ RunTime:0.0002s ]
+
+[ 2016-12-14T09:44:59+08:00 ] 123.149.208.159 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `luu_order` SET `openid`='o15iTwV7iFj7OiyTqisJsPL_FmkU',`pay_total`='15',`total`='18',`meno`='玉米羹',`coupon_id`='1',`is_ziti`='0',`coupon_total`='3.00',`user_id`='3',`trade_no`='16123094459',`addtime`='2016-12-14 09:44:59' WHERE `id` = 34 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `luu_user_address` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `luu_user_address` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" AND is_default=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `luu_user_address` SET `is_default`='0' WHERE ( id=2 ) [ RunTime:0.0003s ]
+SQL: UPDATE `luu_user_address` SET `is_default`='1' WHERE ( id=1 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_order_address` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `luu_order_address` WHERE ( order_id=34 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `luu_order_address` (`order_id`,`username`,`mobile`,`address`) VALUES ('34','小林','15332323232','郑州市 郑东新区 原盛国际2号楼2单元6楼603') [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: res /data/web/lysf/public_html/Application/Wx/Common/function.php 第 269 行.
+
+[ 2016-12-14T09:46:16+08:00 ] 123.149.208.159 /wx.php/Pay/pay.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `luu_order` SET `openid`='o15iTwV7iFj7OiyTqisJsPL_FmkU',`pay_total`='18',`total`='18',`meno`='玉米羹',`coupon_id`='0',`is_ziti`='1',`coupon_total`='0',`user_id`='3',`trade_no`='16123094616',`addtime`='2016-12-14 09:46:16' WHERE `id` = 34 [ RunTime:0.0003s ]
+
+[ 2016-12-14T09:48:33+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=8cd5c10065c3adb1c72287c22d7617c5de436ec2&timestamp=1481680113&nonce=360254845&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-12-14T09:49:11+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=2db118975255c8656c474c64390f38a5f8314986&timestamp=1481680151&nonce=1258819305&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-12-14T09:49:18+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=8da5a5f11dcb921268fcf3576a73ad2cdaceffde&timestamp=1481680158&nonce=718367785&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-12-14T09:49:24+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=1b8f7f266d965eee3637633ad9fd82e10519182b&timestamp=1481680164&nonce=1047696727&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-12-14T09:53:49+08:00 ] 58.247.206.144 /wx.php/Weixin?signature=7bb59c5d04166cc933a10ea7f2d6ccf4f178f6ef&timestamp=1481680429&nonce=2019432491&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-12-14T09:53:50+08:00 ] 58.247.206.154 /wx.php/Weixin?signature=64669677d5d82f5352eda0fb4e55e53a6bc6429d&timestamp=1481680430&nonce=387665798&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-12-14T09:53:55+08:00 ] 58.247.206.149 /wx.php/Weixin?signature=4ed12378253f9018ab99680333c61057d9fec63e&timestamp=1481680435&nonce=1935201729&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-12-14T09:53:55+08:00 ] 58.247.206.149 /wx.php/Weixin?signature=e9beeda7efb635649445a7671a589e1651b2c7ce&timestamp=1481680435&nonce=1320385357&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-12-14T09:54:01+08:00 ] 58.247.206.149 /wx.php/Weixin?signature=e87a2526517341b674066308f441ed10d44f310a&timestamp=1481680441&nonce=1291417948&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-12-14T09:54:02+08:00 ] 123.151.64.142 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:54:03+08:00 ] 123.151.64.142 /wx.php/Takeout/index.html?&code=0319BEm00vZyVB18PCo00BVSm009BEmW&state=eacf50f54d4baa056d25fb3633a3401d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwTAQ2Y7ezXnpWzbKU-F_aOg" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-12-14T09:54:12+08:00 ] 180.153.163.190 /wx.php/Takeout/index.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:54:46+08:00 ] 58.247.206.144 /wx.php/Weixin?signature=b92f570e3ecfed6721d6eecb92b300379e288011&timestamp=1481680486&nonce=1354392504&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-12-14T09:54:51+08:00 ] 58.247.206.146 /wx.php/Weixin?signature=5b1e0a8ade13b06e3491cffbdc8b1156a1391ca4&timestamp=1481680491&nonce=1097959407&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-12-14T09:54:57+08:00 ] 58.247.206.144 /wx.php/Weixin?signature=d4f867302a0a7d6b06c3ad427b039af6089e3ab9&timestamp=1481680497&nonce=107874739&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-12-14T09:55:03+08:00 ] 58.247.206.158 /wx.php/Weixin?signature=020075e35e824d76f36775e8a4b9c7d2fb825a92&timestamp=1481680503&nonce=1459188861&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-12-14T09:55:09+08:00 ] 58.247.206.149 /wx.php/Weixin?signature=aa46c09a012d1b6088ce3a1c781764e66db8de94&timestamp=1481680509&nonce=234956127&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-12-14T09:55:09+08:00 ] 58.247.206.154 /wx.php/Weixin?signature=539a51293b6378f3dc73ce2b02096f2ed4ce11a8&timestamp=1481680509&nonce=615721943&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-12-14T09:55:09+08:00 ] 123.151.64.142 /wx.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwTAQ2Y7ezXnpWzbKU-F_aOg" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `luu_user` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-12-14T09:55:16+08:00 ] 123.151.64.142 /wx.php/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwTAQ2Y7ezXnpWzbKU-F_aOg" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE `user_id` = 10 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-12-14T09:55:26+08:00 ] 58.247.206.149 /wx.php/Weixin?signature=7ad1cd8a268e3049cfbf8c7f24e0a0f1c5f65163&timestamp=1481680526&nonce=659132529&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-12-14T09:55:26+08:00 ] 101.226.89.116 /wx.php/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:55:26+08:00 ] 101.226.33.205 /wx.php/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T09:55:29+08:00 ] 58.247.206.139 /wx.php/Weixin?signature=740f831bb819cdce796db83a6ab3029f904abd56&timestamp=1481680529&nonce=762420823&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-12-14T09:55:30+08:00 ] 58.247.206.154 /wx.php/Weixin?signature=a4e728f880e937b4b69fdae334cdd5f0113df61f&timestamp=1481680530&nonce=1423036107&openid=o15iTwTAQ2Y7ezXnpWzbKU-F_aOg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-12-14T09:55:31+08:00 ] 101.226.51.229 /wx.php/Coupon/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T10:34:45+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=4f76e4adb9c219f59434fb2cac337ea5945a2e7b&timestamp=1481682885&nonce=1652204595&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-12-14T10:34:47+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=2a82d6296c3acf5466c90eec950e3f645e7b20bc&timestamp=1481682887&nonce=1456342590&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-12-14T10:34:49+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T10:34:49+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html?&code=021nyMB90WI80t10oHA90inEB90nyMB2&state=270415ad6da5c42640635aab72edcc65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwU7lm--ruZLGQVFew7IeJdg" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` = 5 ORDER BY id DESC LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`desc`,`name`,`price`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `is_takeout` = 1 AND `category_id` <> 5 ORDER BY id DESC  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-12-14T10:34:53+08:00 ] 123.151.138.56 /wx.php/Order/setOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `luu_order` [ RunTime:0.0006s ]
+
+[ 2016-12-14T10:34:54+08:00 ] 123.151.138.56 /wx.php/Takeout/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `price`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `id` = 64 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_address` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address`,`is_default` FROM `luu_user_address` WHERE `openid` = 'o15iTwU7lm--ruZLGQVFew7IeJdg'  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`mobile`,`province`,`city`,`address` FROM `luu_user_address` WHERE `openid` = 'o15iTwU7lm--ruZLGQVFew7IeJdg' AND `is_default` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `luu_user` WHERE ( openid="o15iTwU7lm--ruZLGQVFew7IeJdg" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( user_id=8 AND status=1 AND num>0 ) ORDER BY id DESC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-12-14T11:45:59+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=46d84804522284464174358d1c3149d6b7e52aaf&timestamp=1481687159&nonce=2028938439&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-12-14T11:46:00+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=1a09025bd869c1c38971d1260a2e253a64c58e14&timestamp=1481687160&nonce=1305931465&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-12-14T11:46:01+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T11:46:02+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html?&code=001GCu9V1ZNpdT0XklcV1ROC9V1GCu9V&state=a03e48559539acb55b9c9ff46b494896
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0006s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwV7iFj7OiyTqisJsPL_FmkU" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+
+[ 2016-12-14T11:46:06+08:00 ] 123.151.138.56 /wx.php/Dish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `luu_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `luu_goods_category` WHERE `status` = 1 AND `is_show` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 3  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 4  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 5  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`name`,`pic` FROM `luu_goods` WHERE `status` = 1 AND `category_id` = 6  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-12-14T11:46:11+08:00 ] 123.151.138.56 /wx.php/Dish/desc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `luu_goods` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`desc`,`pic`,`price` FROM `luu_goods` WHERE `id` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_goods_pics` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `luu_goods_pics` WHERE ( good_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-12-14T11:46:21+08:00 ] 140.207.185.109 /wx.php/Dish/desc/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T11:46:27+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=55513cf566a0a02d10a59bfb2dddf48681c98400&timestamp=1481687187&nonce=2032507549&openid=o15iTwV7iFj7OiyTqisJsPL_FmkU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-12-14T12:29:27+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=05c682e76e781525a3a614aa3f5a9df57dc7b284&timestamp=1481689766&nonce=1879207141&openid=o15iTwXi803nqVBfa_hn64BGCL5o
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwXi803nqVBfa_hn64BGCL5o" ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined offset: 0 /data/web/lysf/public_html/ThinkPHP/Library/Think/Db/Driver.class.php 第 803 行.
+SQL: INSERT INTO `luu_user` (`subscribe`,`openid`,`nickname`,`sex`,`city`,`province`,`avatar`,`subscribe_time`,`remark`,`groupid`,`reg_type`,`addtime`,`reg_ip`) VALUES ('1','o15iTwXi803nqVBfa_hn64BGCL5o','晶晶天天亮晶晶～晶','2','郑州','河南','http://wx.qlogo.cn/mmopen/ajNVdqHZLLDJMGxbwOM4gOZhvRwKia2uz9K5w303gsfha7X1LlqQpOc8tlIY2ib7msLArfbHXaFzOiadVxQrF5DBw/0','2016-12-14 12:29:26','','0','subscribe','2016-12-14 12:29:27','140.207.54.73') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `luu_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_coupon` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `luu_user_coupon` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_user_coupon` WHERE ( coupon_id=1 AND user_id=12 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/web/lysf/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `luu_user_coupon` (`coupon_id`,`user_id`,`name`,`total`,`begintime`,`endtime`,`num`,`available_num`,`status`) VALUES ('1','12','3元代金券','3.00','2016-12-10 00:00:00','2017-01-31 00:00:00','10','0','1') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-12-14T12:29:36+08:00 ] 101.226.33.220 /wx.php/Weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+ERR: Invalid request.
+
+[ 2016-12-14T12:29:37+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=e6d0ef2d7e208d656f8720272dad45acab0112a0&timestamp=1481689777&nonce=60050350&openid=o15iTwXi803nqVBfa_hn64BGCL5o
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-12-14T15:38:56+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: code /data/web/lysf/public_html/Application/Wx/Common/function.php 第 147 行.
+ERR: The key "access_token" could not be empty.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/web/lysf/public_html/vendor/symfony/http-foundation/Response.php:1206) /data/web/lysf/public_html/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-12-14T15:38:57+08:00 ] 123.151.138.56 /wx.php/Takeout/index.html?&code=021YVW8J0bAsQk2GlW8J0Hj29J0YVW8r&state=e29f15f5628ddbf59ae65d15e4920826
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `luu_user` [ RunTime:0.0007s ]
+SQL: SELECT `openid`,`nickname`,`mobile`,`avatar`,`integral` FROM `luu_user` WHERE ( openid="o15iTwU7lm--ruZLGQVFew7IeJdg" ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `luu_takeout_conf` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `luu_takeout_conf` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+
+[ 2016-12-14T15:38:58+08:00 ] 140.207.54.73 /wx.php/Weixin?signature=ffd018a976591cb8edee2a8fe2bdc3450595549f&timestamp=1481701138&nonce=2001105959&openid=o15iTwU7lm--ruZLGQVFew7IeJdg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [2048] Declaration of Wx\Controller\WeixinController::_initialize() should be compatible with Wx\Controller\BaseController::_initialize($type = false) /data/web/lysf/public_html/Application/Wx/Controller/WeixinController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+

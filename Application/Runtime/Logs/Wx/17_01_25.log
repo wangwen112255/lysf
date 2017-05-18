@@ -1,0 +1,9 @@
+[ 2017-01-25T22:12:44+08:00 ] 112.65.193.14 /wx.php/Weixin
+ERR: Invalid request.
+
+[ 2017-01-25T22:36:45+08:00 ] 180.108.68.223 /wx.php/Dish/index.html
+ERR: The key "access_token" could not be empty.
+
+[ 2017-01-25T22:37:36+08:00 ] 101.226.66.193 /wx.php/Dish/recommend.html
+ERR: The key "access_token" could not be empty.
+

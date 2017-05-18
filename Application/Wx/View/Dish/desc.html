@@ -1,0 +1,30 @@
+<extend name="Public:layout"/>
+<block name="content">
+    <notempty name="data['piclist']">
+        <div class="ui-slider">
+            <ul class="ui-slider-content">
+                <volist name="data['piclist']" id="v">
+                    <li><span style="background-image:url({$v.pic|getPicThumb='l_'})"></span></li>
+                </volist>
+            </ul>
+        </div>
+        <else />
+        <div class="ui-row" style="max-height:200px;overflow: hidden;">
+            <img src="{$data.pic|getPicThumb='l_'}" alt="图片" style="width: 100%;margin-top: -70px;">
+        </div>
+    </notempty>
+</block>
+<block name="js">
+    <notempty name="data['piclist']">
+        <script>
+            (function(){
+                 new fz.Scroll('.ui-slider', {
+                    role: 'slider',
+                    indicator: true,
+                    autoplay: true,
+                    interval: 3000
+                });
+            })();
+        </script>
+    </notempty>
+</block>

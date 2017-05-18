@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>{$title|default="鲁豫食府"}</title>
+    <link rel="stylesheet" href="__PUBLIC__/wx/dist/css/frozen.css">
+    <link rel="stylesheet" href="__PUBLIC__/wx/app.css">
+    <block name="css"></block>
+</head>
+<body ontouchstart="">
+<block name="header">
+<!--<header class="ui-header ui-header-positive ui-border-b">-->
+    <!--<i class="ui-icon-return" onclick="history.back()"></i>-->
+    <!--<h1></h1>-->
+    <!--<button class="ui-btn">回首页</button>-->
+<!--</header>-->
+</block>
+<block name="footer">
+<!--<footer class="ui-footer ui-footer-btn">-->
+    <!--<ul class="ui-tiled ui-border-t">-->
+        <!--<li data-href="index.html" class="ui-border-r"><div>基础样式</div></li>-->
+        <!--<li data-href="ui.html" class="ui-border-r"><div>UI组件</div></li>-->
+        <!--<li data-href="js.html"><div>JS插件</div></li>-->
+    <!--</ul>-->
+<!--</footer>-->
+</block>
+<section class="ui-container">
+    <block name="content"></block>
+</section>
+<script src="__PUBLIC__/wx/dist/lib/zepto.min.js"></script>
+<script src="__PUBLIC__/wx/dist/js/frozen.js"></script>
+<block name="js">
+</block>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<extend name="Public:layout" />
+<block name="css">
+<link href="__PUBLIC__/static/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+</block>
+<block name="content">
+<div class="col-sm-12">
+    <div class="fixed-table-toolbar">
+        <div class="bars pull-left">
+            <div class="btn-group hidden-xs">
+                <button onclick="_layOpenUrl('{:U('create',array('shop_id'=>$shop_id))}','添加')" type="button" class="btn btn-outline btn-default" >
+                    <i class="glyphicon glyphicon-plus" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="btn btn-outline btn-default">
+                    <i class="glyphicon glyphicon-trash" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="columns columns-right btn-group pull-right">
+            <button onclick="_search();"  class="btn btn-default btn-outline" type="button" title="搜索"><i class="glyphicon glyphicon-search"></i></button>
+            <button onclick="javascript:window.location.reload();" class="btn btn-default btn-outline" type="button" name="refresh" title="刷新"><i class="glyphicon glyphicon-repeat"></i></button>
+        </div>
+        <div class="pull-right search">
+            <input name="name" value="{$Think.get.name}" class="form-control input-outline" type="text" placeholder="名称">
+        </div>
+        <div class="pull-right search">
+            <select name="status" class="form-control input-outline">
+                <option value="">全部状态</option>
+                <option value="1" <if condition="($_GET['status'] eq 1) AND (isset($_GET['status'])) ">selected</if> >启用</option>
+                <option value="0" <if condition="($_GET['status'] eq 0) AND ($_GET['status'] neq '') ">selected</if>>禁用</option>
+            </select>
+        </div>
+    </div>
+    <table data-toggle="table" data-click-to-select="true" data-mobile-responsive="true">
+        <thead>
+        <tr>
+            <th data-field="id" data-checkbox="true"></th>
+            <th data-field="name">名称</th>
+            <th data-field="pic">展示</th>
+            <th data-field="category_id">类别</th>
+            <th data-field="price">价格</th>
+            <th data-field="week">时间</th>
+            <th data-field="status" data-align="center">状态</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id="v">
+        <tr id="item{$v.id}">
+            <td><input type="checkbox" name="id" value="{$v.id}" /></td>
+            <td>{$v.name}__ROOT__</td>
+            <td><img src="__ROOT__{$v.pic|getPicThumb='s_'}" title="图片" style="max-height: 46px;"/></td>
+            <td>{$v.category_id}</td>
+            <td>{$v.price}</td>
+            <td>{$week[$v['week']]}</td>
+            <td data-align="center">
+                <button id="status{$v.id}" onclick="_setStatus({$v.id});" class="btn <eq name="v['status']" value="1">btn-info<else/>btn-default</eq>" type="button">{$status[$v['status']]}</button>
+            </td>
+            <td>
+                <button onclick="_layOpenUrl('{:U('Goods/create',array('id'=>$v['id']))}', '修改')" class="btn btn-info " type="button"><i class="fa fa-paste"></i> 编辑</button>
+                <button onclick="_layOpenUrl('{:U('Goods/pics',array('id'=>$v['id']))}', '图库')" class="btn btn-info " type="button"><i class="fa fa-paste"></i> 图库</button>
+                <button onclick="_del({$v.id});" class="btn btn-danger" type="button"><i class="fa fa-trash"></i> 删除</button>
+            </td>
+        </tr>
+        </volist>
+        </tbody>
+    </table>
+    {$page}
+
+</div>
+</block>
+<block name="js">
+<!-- Bootstrap table -->
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script>
+    function _setStatus(id) {
+        layer.confirm('确定修改？',{btn: ['修改','取消']},function(index){
+            _ajax({
+                "url": "{:U('Goods/setStatus')}",
+                "data": {id: id},
+                "success": function(data){
+                    if(data.code == 200){
+                        layer.msg(data.msg,{icon: 1,time: 700});
+                        var cl = $('#status'+id).attr('class');
+                        cl = (cl=='btn btn-info')?'btn btn-defaule':'btn btn-info';
+                        $('#status'+id).text(data.data);
+                        $('#status'+id).attr('class',cl);
+
+                    } else {
+                        layer.alert( data.msg );
+                    }
+                },
+                "param": id
+            });
+            layer.close(index);
+        },function(index){
+            layer.close(index);
+        })
+    }
+
+    function _del(id){
+        layer.confirm('确定删除？',{btn: ['删除','取消']},function(index){
+            _ajax({
+                url: "{:U('Goods/delete')}",
+                data: {id: id},
+                success: function(data){
+                    if(data.code == 200){
+                        $('#item'+id).hide();
+                        layer.msg(data.msg,{icon: 1,time: 700});
+                    } else {
+                        layer.alert(data.msg);
+                    }
+                },
+                param: id
+            });
+            layer.close(index);
+        },function(index){
+            layer.close(index);
+        })
+    }
+
+    function _search(){
+        var href = '{:U("Takeout/index", "","")}';
+        var src = _searchData(href);
+        if(src){
+            window.location.href = src;
+        }
+    }
+</script>
+</block>

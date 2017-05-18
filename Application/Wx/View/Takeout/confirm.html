@@ -1,0 +1,418 @@
+<extend name="Public:sui"/>
+<block name="css">
+    <style>
+        .content {margin-top: 0;margin-bottom: 2.5rem;}
+        .row.bar{bottom: 0;margin: 0;padding-right: 0;}
+        .row.bar div{height: 100%;line-height: 2.5em;}
+        .todo{background: #ff7012;color: #ffffff;line-height: 2.5;text-align: center;}
+        .total span{color: #ff3030;}
+        .item-media img {max-width: 24px;}
+        .content-block {margin: 0;}
+        .list-block {margin: 1rem 0;}
+        .list-block .list-group-title {color: #2f4050;}
+        .list-block .item-title.address{white-space: pre-wrap;}
+        .icon {color:#ff3030;}
+        .list-block .item-content.hide {display: none;}
+        .item-title.buttons-row{margin: 0 auto;}
+        .buttons-row .button{border-color: #e7e7e7;border-left-color: #0894ec;}
+        .buttons-row .left{border-left-color: #e7e7e7;}
+        .popup {height: 70%;top: 30%;}
+        .list-block .item-input {background: #f7f7f7;}
+        .content-block-title{margin-top: 0.5rem;}
+        .center {text-align: center;color: #0894ec;}
+    </style>
+</block>
+<block name="content">
+    <div class="row bar">
+        <div class="col-60 total">实付款：<span><big id="total">{$order.pay_total}</big></span></div>
+        <div class="col-40 todo" id="toPay">立即支付</div>
+    </div>
+    <div class="content">
+        <div class="content-block-title center"><span class="icon iconfont icon-notification" style="margin-top: -0.2rem;margin-right: 5px;"></span>到店自提送饮料</div>
+        <div class="content-block">
+            <div class="list-block contacts-block">
+                <div class="list-group">
+                    <ul>
+                        <li class="list-group-title">收货地址<span class="icon iconfont icon-location"></span></li>
+
+                        <li class="item-content <empty name='address'>hide</empty>" id="show-address">
+                            <div class="item-inner">
+                                <div class="item-title address" id="show-address-item">{$address.username} {$address.mobile} {$address.address}</div>
+                            </div>
+                        </li>
+                        <li class="item-content">
+                            <div class="item-inner a-c">
+                                <div class="item-title buttons-row">
+                                    <a href="#" id="ziti-address" class="button left">我要自提</a>
+                                    <a href="#" id="add-address" class="button">添加地址</a>
+                                    <a href="#" id="add-address-list" class="button">选择地址</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-block">
+            <div class="list-block contacts-block">
+                <div class="list-group">
+                    <ul>
+                        <li class="list-group-title">商品清单<span class="icon iconfont icon-cart"></span></li>
+                        <volist name="goods" id="g">
+                        <li class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">{$g.name}</div>
+                                <div class="item-after">{$g.num}份</div>
+                            </div>
+                        </li>
+                        </volist>
+                        <notempty name="order['meno']">
+                            <li class="item-content">
+                                <div class="item-media"><i class="icon icon-gift"></i></div>
+                                <div class="item-inner">
+                                    <div class="item-title">汤羹</div>
+                                    <div class="item-after">{$order.meno}</div>
+                                </div>
+                            </li>
+                        </notempty>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-block">
+            <div class="list-block">
+                <ul>
+                    <notempty name="couponlist">
+                    <li style="background: #e7e7e7;">
+                        <a href="#" id="select-coupon" class="item-link item-content">
+                            <div class="item-inner" id="coupon-item-checked">
+                                <div class="item-title">有可用代金券</div>
+                            </div>
+                        </a>
+                    </li>
+                    </notempty>
+                    <li class="item-content">
+                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">总计</div>
+                            <div class="item-after">{$order.total}</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</block>
+<block name="other">
+    <div class="popup popup-address">
+        <div class="content" style="margin-bottom: 0;">
+            <div class="list-block">
+                <ul>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">
+                                    郑州市 郑东新区
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-me"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">姓名</div>
+                                <div class="item-input">
+                                    <input type="text" id="user-name" placeholder="收货人姓名">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-phone"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">电话</div>
+                                <div class="item-input">
+                                    <input type="number" id="user-mobile" placeholder="手机号码">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="icon icon-message"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">地址</div>
+                                <div class="item-input">
+                                    <textarea id="user-address"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <div class="row">
+                    <div class="col-40">　</div>
+                    <div class="col-40"><a href="#" id="add-user-address" class="button button-fill button-success">添加</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-address-list" style="height: 100%;top: 0;">
+        <div class="content" style="margin-bottom: 0;">
+            <div class="content-block-title">地址列表</div>
+            <div class="list-block media-list">
+                <ul>
+                    <notempty name="addresslist">
+                        <volist name="addresslist" id="address">
+                    <li class="select-address" data-id="{$address.id}">
+                        <label class="label-checkbox item-content">
+                            <input type="radio" name="select-address">
+                            <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">
+                                        <eq name="address['is_default']" value="1"><span class="icon icon-me"></span></eq>
+                                        {$address.username}
+                                    </div>
+                                    <div class="item-after">{$address.mobile}</div>
+                                </div>
+                                <div class="item-text">{$address.address}</div>
+                            </div>
+                        </label>
+                    </li>
+                        </volist>
+                    </notempty>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup-coupon" style="height: 100%;top: 0;">
+        <div class="content" style="margin-bottom: 0;">
+            <div class="content-block-title">代金券列表</div>
+            <div class="list-block media-list">
+                <ul>
+                    <li class="select-coupon-item" data-id="" data-name="有可用代金券" data-total="">
+                        <label class="label-checkbox item-content">
+                            <input type="radio" name="select-coupon">
+                            <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title">
+                                        不使用代金券
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </li>
+                    <notempty name="couponlist">
+                        <volist name="couponlist" id="coupon">
+                            <li class="select-coupon-item" data-id="{$coupon.id}" data-name="{$coupon.name}" data-total="{$coupon.total}">
+                                <label class="label-checkbox item-content">
+                                    <input type="radio" name="select-coupon">
+                                    <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
+                                    <div class="item-inner">
+                                        <div class="item-title-row">
+                                            <div class="item-title">
+                                                {$coupon.name}
+                                            </div>
+                                            <div class="item-after">{$coupon.total}</div>
+                                        </div>
+                                    </div>
+                                </label>
+                            </li>
+                        </volist>
+                        <else/>
+                        <li class="item-content item-link">
+                            <div class="item-inner">
+                                <div class="item-title">没有代金券</div>
+                            </div>
+                        </li>
+                    </notempty>
+                </ul>
+            </div>
+        </div>
+    </div>
+</block>
+<block name="js">
+    <script>
+        var addressId = '{$address.id}';
+        var coupon_id = '';
+        var payTotal = '{$order.total}';
+        var addressList = true;
+        <empty name="addressList">
+            addressList = false;
+        </empty>
+
+
+        $(document).on('click','#toPay', function () {
+            var is_ziti = 0;
+            $.showPreloader();
+            if($('#ziti-address').hasClass('active')){
+                is_ziti = 1;
+                addressId = 0;
+            }
+            $.ajax({
+                url: "{:U('Pay/pay')}",
+                type: 'post',
+                dataType: 'json',
+                data: {address: addressId, coupon_id: coupon_id,is_ziti: is_ziti},
+                success: function(data){
+                    $.hidePreloader();
+                    if(data.code == 200){
+                        var config = data.data;
+                        if(typeof config == 'string') {
+                            config = JSON.parse(config);
+                        }
+
+                        _toDo(config);
+                    } else {
+                        $.alert(data.msg);
+                    }
+                },
+                error: function (x) {
+                    $.hidePreloader();
+                    $.alert('支付失败了！');
+                }
+            })
+        });
+        //微信支付
+        function onBridgeReady(config){
+//            console.log(config);
+            WeixinJSBridge.invoke(
+                    'getBrandWCPayRequest', config,
+                    function(res){
+//                        alert(JSON.stringify(res));
+                        if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+                            window.location.href = "{:U('Order/res')}";
+                        } else if(res.err_msg == "get_brand_wcpay_request:cancel"){
+                        } else {
+                            $.alert('支付失败,请重试！');
+                        }
+                    }
+            );
+        }
+
+        function _toDo(config){
+            if (typeof WeixinJSBridge == "undefined"){
+                if( document.addEventListener ){
+                    document.addEventListener('WeixinJSBridgeReady', onBridgeReady(config), false);
+                }else if (document.attachEvent){
+                    document.attachEvent('WeixinJSBridgeReady', onBridgeReady(config));
+                    document.attachEvent('onWeixinJSBridgeReady', onBridgeReady(config));
+                }
+            }else{
+                onBridgeReady(config);
+            }
+        }
+
+        //选择代金券
+        $(document).on('click','#select-coupon', function () {
+            $.popup('.popup-coupon');
+        });
+        $(document).on('click','.select-coupon-item', function () {
+            coupon_id = $(this).attr('data-id');
+            var coupont_total = $(this).attr('data-total')||0;
+            var coupon_name = $(this).attr('data-name');
+
+            var total = parseFloat(payTotal).toFixed(2);
+            coupont_total = parseFloat(coupont_total).toFixed(2);
+            total = parseFloat(total) - coupont_total;
+            if(total <= 0){
+                total = '0.00';
+            } else {
+                total = total.toFixed(2);
+            }
+            if(coupont_total == 0){
+                coupont_total = '';
+            }
+            $('#total').text(total);
+            var html = '<div class="item-title">'+coupon_name+'</div><div class="item-after">'+coupont_total+'</div>';
+            $('#coupon-item-checked').html(html);
+            $.closeModal('.popup-coupon');
+        });
+
+
+        //添加地址
+        $(document).on('click','#add-address', function () {
+            $.popup('.popup-address');
+        });
+        $(document).on('click','#add-address-list', function () {
+            if(addressList === true){
+                $.popup('.popup-address-list');
+            } else {
+                $.toast("请先添加地址");
+            }
+        });
+
+        $(document).on('click','.popup-overlay', function () {
+            $.closeModal('.popup-address');
+        });
+        //自提
+        $(document).on('click', '#ziti-address', function () {
+            var check = $(this).hasClass('active');
+            console.log(check);
+            if(check){
+                $('#show-address').hide();
+                $(this).removeClass('active');
+            } else {
+                $(this).addClass('active');
+                $('#show-address').show();
+                $('#show-address-item').text('自提地址：郑东新区绿地原盛国际7号楼附5号千品百汇二楼');
+            }
+
+        });
+
+        $(document).on('click','.select-address', function () {
+            var username = Trim($(this).find('.item-title').text());
+            var mobile = Trim($(this).find('.item-after').text());
+            var address = Trim($(this).find('.item-text').text());
+            addressId = $(this).attr('data-id');
+            $('#ziti-address').removeClass('active');
+            $('#show-address-item').text(username+' '+mobile+' '+ address);
+            if($('#show-address').hasClass('hide')){
+                $('#show-address').removeClass('hide');
+            }
+            setTimeout(function () {
+                $.closeModal('.popup-address-list');
+            },200)
+        });
+
+        $(document).on('click', '#add-user-address', function(){
+            var username = Trim($('#user-name').val());
+            var mobile = Trim($('#user-mobile').val());
+            var address = Trim($('#user-address').val());
+            $.ajax({
+                url: "{:U('Address/save')}",
+                type: 'post',
+                dataType: 'json',
+                data: {username: username, mobile: mobile, address: address},
+                success: function(data){
+                    if(data.code == 200){
+                        addressId = data.data;
+                        $('#ziti-address').removeClass('active');
+                        $('#show-address-item').text(username+' '+mobile+' '+ address);
+                        $('#show-address').removeClass('hide');
+                        $.closeModal('.popup-address');
+
+                        addressList = true;
+                    }
+                },
+                error: function () {
+                    $.alert('添加失败！');
+                }
+            })
+        });
+
+        //去两端空格
+        function Trim(str)
+        {
+            return str.replace(/(^\s*)|(\s*$)/g, "");
+        }
+    </script>
+</block>

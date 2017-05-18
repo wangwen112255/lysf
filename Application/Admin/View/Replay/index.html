@@ -1,0 +1,116 @@
+﻿<extend name="Public:layout"/>
+<block name="css">
+<link href="__PUBLIC__/static/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+</block>
+<block name="content">
+<div class="col-sm-12">
+    <div class="fixed-table-toolbar">
+        <div class="bars pull-left">
+            <div class="btn-group hidden-xs">
+                <button onclick="_layOpenUrl('{:U('create')}','添加')" type="button" class="btn btn-outline btn-default" >
+                    <i class="glyphicon glyphicon-plus" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="btn btn-outline btn-default">
+                    <i class="glyphicon glyphicon-trash" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <div class="columns columns-right btn-group pull-right">
+            <button class="btn btn-default btn-outline" type="button" title="搜索"><i class="glyphicon glyphicon-search"></i></button>
+            <button onclick="javascript:window.location.reload();" class="btn btn-default btn-outline" type="button" name="refresh" title="刷新"><i class="glyphicon glyphicon-repeat"></i></button>
+        </div>
+        <div class="pull-right search">
+            <input class="form-control input-outline" type="text" placeholder="请输入关键字">
+        </div>
+    </div>
+    <table data-toggle="table" data-click-to-select="true" data-mobile-responsive="true">
+        <thead>
+        <tr>
+            <th data-field="id" data-checkbox="true"></th>
+            <th data-field="keyword">关键词</th>
+            <th data-field="article_id">回复文章标题</th>
+            <th data-field="status" data-align="center">状态</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id="v">
+        <tr id="item{$v.rid}">
+            <td><input type="checkbox" name="id" value="{$v.rid}" /></td>
+            <td>{$v.keyword}</td>
+            <td>{$v.title}<span onclick="_layOpenUrl('{:U('Article/show',array('id'=>$v['article_id']))}', '查看')">(点击详情)</span></td>
+            <td data-align="center">
+                <eq name="v.restatus" value="1">
+                            <button id="status{$v.rid}" value="{$v.rid}" onclick="_setStatus({$v.rid},{$v.restatus});"   type="button" class='btn btn-info'>启用</button>
+                            <else/>
+                            <button id="status{$v.rid}"   onclick="_setStatus({$v.rid},{$v.restatus});"   type="button" class='btn btn-default'>禁用</button>
+                        </eq>
+            </td>
+            <td>
+                <button onclick="_layOpenUrl('{:U('edit',array('id'=>$v['rid']))}', '修改')" class="btn btn-info " type="button"><i class="fa fa-paste"></i> 编辑/查看</button>
+                <button onclick="_del({$v.rid});" class="btn btn-danger" type="button"><i class="fa fa-trash"></i> 删除</button>
+            </td>
+        </tr>
+        </volist>
+        </tbody>
+    </table>
+    {$page}
+
+</div>
+</block>
+<block name="js">
+<!-- Bootstrap table -->
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script>
+    function _setStatus(id,statu) {
+           // event.stopPropagation();
+            layer.confirm('确定修改状态？',{btn: ['修改','取消']},function(index){
+                _ajax({
+                    "url": "{:U('setStatu')}",
+                    "data": {id: id,stat:statu},
+                    "success": function(data){
+                        if(data.code == 200){
+                            layer.msg(data.msg,{icon: 1,time: 700});
+                            var cl = $('#status'+id).attr('class');
+                            cl = (cl=='btn btn-info')?'btn btn-default':'btn btn-info';
+                            $('#status'+id).text(data.data);
+                            $('#status'+id).attr('class',cl);
+
+                        } else {
+                            layer.alert( data.msg );
+                        }
+                    },
+                    "param": id
+                });
+                layer.close(index);
+            },function(index){
+                layer.close(index);
+            })
+        }
+
+    function _del(id){
+        layer.confirm('确定删除用户？',{btn: ['删除','取消']},function(index){
+            _ajax({
+                url: "{:U('del')}",
+                data: {id: id},
+                success: function(data){
+                    console.log(data)
+                    if(data.code == 200){
+                        $('#item'+id).hide();
+                        layer.msg(data.msg,{icon: 1,time: 700});
+                    } else {
+                        layer.alert(data.msg);
+                    }
+                },
+                param: id
+            });
+            layer.close(index);
+        },function(index){
+            layer.close(index);
+        })
+    }
+
+</script>
+</block>

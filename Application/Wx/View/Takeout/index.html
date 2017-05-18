@@ -1,0 +1,256 @@
+<extend name="Public:sui"/>
+<block name="css">
+    <style>
+        .content {margin-top: 0;margin-bottom: 2.5rem;}
+        .price {
+            color: #ff3030;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .button {display: inline-block;}
+        .tool {
+            color: #b3b3b3;
+            border-radius: 50%;
+            border-color: #b3b3b3;
+            background: #ffffff;
+            width: 30px;
+            height: 30px;
+            padding: 0;
+            line-height: 30px;
+        }
+        .tool.active {color: #fff;background: #ff7012;border: none;}
+        .num-tool {text-align: right;}
+        .num,.list-block input[type=number] {width: 50px;border: none;padding: 0;color: #000;display: inline-block;}
+        .row.bar{bottom: 0;margin: 0;padding-right: 0;}
+        .row.bar div{height: 100%;line-height: 2.5em;}
+        .todo{background: #ff7012;color: #ffffff;line-height: 2.5;text-align: center;}
+        .total span{color: #ff3030;}
+        .tool-j{visibility:hidden;}
+    </style>
+</block>
+<block name="content">
+
+    <div class="row bar">
+        <div class="col-60 total">实付款：<span><big id="total">0.00</big></span></div>
+        <div class="col-40 todo" onclick="_toPay()">立即支付</div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+                <img class='card-cover'
+                     src="{$data.pic|getPicThumb='l_'}"
+                     alt="{$data.name}">
+            </div>
+            <div class="card-content">
+                <div class="card-content-inner">
+                    <p class="color-gray">{$data.name}</p>
+                    <div class="row">
+                        <div class="price col-20">￥{$data.price}</div>
+                        <div class="num-tool col-80">
+                            <a href="javascript:void(0)" id="tool-j{$data.id}" onclick="_setNum(false,{$data.id},{$data.price});" class="button tool tool-j">-</a>
+                            <input type="number" name="num{$data.id}" value="" id="num{$data.id}" class="button num"/>
+                            <a href="javascript:void(0)" onclick="_setNum(true,{$data.id},{$data.price});" class="button tool active">+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">自选汤羹</div>
+            <div class="card-content">
+                <div class="card-content-inner">
+                    <a href="#" onclick="_selectTang(this);" class="button button-light button-round tang">紫菜蛋花汤</a>
+                    <a href="#" onclick="_selectTang(this);" class="button button-light button-round tang" style="margin-left: 50px;">玉米羹</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">详细信息</div>
+            <div class="card-content">
+                <div class="card-content-inner">
+                    {$data.desc|htmlspecialchars_decode}
+                </div>
+            </div>
+        </div>
+        <notempty name="list">
+        <div class="card">
+            <div class="card-header">
+                饮品
+            </div>
+            <div class="card-content">
+                <div class="card-content-inner">
+                    <div class="list-block media-list">
+                        <ul>
+                            <volist name="list" id="v">
+                            <li>
+                                <div class="item-content">
+                                    <div class="item-media"><img src="{$v.pic|getPicThumb='s_'}" style='width: 2.2rem;'></div>
+                                    <div class="item-inner">
+                                        <div class="item-title-row">
+                                            <div class="item-title">{$v.name}</div>
+                                        </div>
+                                        <div class="item-subtitle row">
+                                            <div class="price col-20">￥{$v.price}</div>
+                                            <div class="num-tool col-80">
+                                                <a href="javascript:void(0)" id="tool-j{$v.id}" onclick="_setNum(false,{$v.id},{$v.price});" class="button tool tool-j">-</a>
+                                                <input type="number" name="num{$v.id}" value="" id="num{$v.id}" class="button num"/>
+                                                <a href="javascript:void(0)" onclick="_setNum(true,{$v.id},{$v.price});" class="button tool active">+</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            </volist>
+                        </ul>
+                    </div>
+                    <!--list结束-->
+                </div>
+            </div>
+        </div>
+        </notempty>
+        <!--card结束-->
+    </div>
+</block>
+<block name="other"></block>
+<block name="js">
+    <script>
+        localStorage.removeItem("goods");
+        $(document).ready(function(){
+           $('.num').val('');
+        });
+        var total = 0;
+
+        function _setNum(type, id,price){
+            price = parseFloat(price);
+            setShoppingCart(id, type,price);
+        }
+
+        function _selectTang(el){
+            tang = $(el).text();
+            var res = $('el').hasClass('active');
+            if(res){
+                return;
+            }
+            $('.tang').removeClass('active');
+            $(el).addClass('active');
+        }
+
+        function _toPay(){
+            var goods = localStorage.getItem("goods");
+            goods = JSON.parse(goods);
+            if(goods==null || goods=="undefined"){
+                $.alert('还没有选择商品！');
+                return;
+            }
+            var tang = $('.tang.active').text();
+            if(!tang){
+               $.confirm('确定不选择免费汤羹吗?',
+                    function () {
+                        _getOrderConfirm(goods,tang);
+                    },
+                    function () {
+                    }
+               );
+            } else {
+                _getOrderConfirm(goods,tang);
+            }
+        }
+
+        //请求订单数据
+        function _getOrderConfirm(goods,tang){
+            $.ajax({
+                url: "{:U('Order/setOrder')}",
+                data: {goods: goods, tang: tang},
+                type: 'post',
+                dataType: 'json',
+                success: function(data){
+                    if(data.code == 200){
+                        window.location.href = "{:U('confirm')}";
+//                        $.router.load("{:U('confirm','','')}");
+                    } else {
+                        $.alert(data.msg);
+                    }
+                },
+                error: function(){
+                    $.alert('请求订单失败！');
+                }
+            })
+        }
+
+        //添加商品
+        function setShoppingCart(id,type,price){
+            total = parseFloat(total);
+            price = parseFloat(price);
+            var isSave=false;
+            var goods = localStorage.getItem("goods");
+            goods = JSON.parse(goods);
+            if(goods!=null&&goods!="undefined"){
+//                console.log('购物车有商品');
+                //如果不为空，则判断购物车中是否包含了当前购买的商品
+                for(var i=0;i<goods.length;i++){
+//                    console.log(goods[i]);
+                    isSave=false;
+                    if(goods[i].id==id){
+//                        console.log('添加1个');
+                        //说明该商品已在购物车，则数量加1
+                        if(type == true){
+                            goods[i].num+=1;
+                            total += price;
+                            _setHide(id,goods[i].num);
+                        } else if (type == false){
+                            goods[i].num-=1;
+                            total -= price;
+                            if(goods[i].num == 0){
+                                goods.splice(i,1);
+                                _setHide(id,0);
+                            }
+                        }
+
+                        isSave=true;
+                        break;
+                    }
+                }
+                if(!isSave){
+//                    console.log('没有此商品');
+                    goods[goods.length]={id: id,num: 1};
+                    total += price;
+                    _setHide(id,1);
+                }
+            }else{
+                var goods=[{id: id,num: 1}];
+                total += price;
+                _setHide(id,1);
+            }
+//            console.log(goods);
+            goods=JSON.stringify(goods);//将JSON对象转化成字符串
+            localStorage.setItem("goods",goods);//用localStorage保存转化好的的字符串
+            _setTotal();
+        }
+
+        function _setTotal(){
+            total = parseFloat(total).toFixed(2);
+            if(isNaN(total) || total<0){
+                total = 0.00;
+                $('#total').text('0.00');
+            } else {
+                $('#total').text(total);
+            }
+        }
+
+        function _setHide(id,num){
+            var el = '#tool-j'+id;
+            $('#num'+id).val(num);
+            if($(el).hasClass('tool-j')){
+                if(num != 0) {
+                    $(el).removeClass('tool-j');
+                }
+            } else {
+                if(num == 0){
+                    $('#num'+id).val('');
+                    $(el).addClass('tool-j');
+                }
+            }
+        }
+    </script>
+</block>

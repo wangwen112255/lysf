@@ -1,0 +1,249 @@
+﻿<extend name="Public:layout"/>
+<block name="css">
+<link href="__PUBLIC__/static/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <style>
+
+        .pages a,.pages span {
+            display:inline-block;
+            padding:2px 5px;
+            margin:10px 4px;
+            font-size: 16px;
+            width: 60px;
+            height:30px;
+            text-align: center;
+            border:1px solid #f0f0f0;
+            -webkit-border-radius:3px;
+            -moz-border-radius:3px;
+            border-radius:3px;
+        }
+        .pages a,.pages li {
+            display:inline-block;
+            list-style: none;
+            text-decoration:none; color:#58A0D3;
+        }
+        .pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+            margin:0;
+        }
+        .pages a:hover{
+            border-color:#50A8E6;
+        }
+        .pages span.current{
+            background:#50A8E6;
+            color:#FFF;
+            font-weight:700;
+            border-color:#50A8E6;
+        }
+
+
+    </style>
+</block>
+<block name="content">
+<div class="col-sm-12">
+    <div class="fixed-table-toolbar">
+        <div class="bars pull-left">
+            <div class="btn-group hidden-xs">
+                <button onclick="_layOpenUrl('{:U('create')}','添加')" type="button" class="btn btn-outline btn-default" >
+                    <i class="glyphicon glyphicon-plus" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="btn btn-outline btn-default">
+                <i class="glyphicon glyphicon-trash" aria-hidden="true"></i>
+            </button>
+                <button style="margin-left: 15px;" onclick="_finish();" class="btn btn-success" type="button"><i class="glyphicon glyphicon-ok"></i> 生成菜单</button>
+                </button>
+            </div>
+        </div>
+        <div class="columns columns-right btn-group pull-right">
+            <button class="btn btn-default btn-outline" type="button" title="搜索"><i class="glyphicon glyphicon-search"></i></button>
+            <button onclick="javascript:window.location.reload();" class="btn btn-default btn-outline" type="button" name="refresh" title="刷新"><i class="glyphicon glyphicon-repeat"></i></button>
+        </div>
+        <div class="pull-right search">
+            <input class="form-control input-outline" type="text" placeholder="请输入关键字">
+        </div>
+    </div>
+    <table data-toggle="table" data-click-to-select="true" data-mobile-responsive="true">
+        <thead>
+        <tr>
+            <th data-field="id" data-checkbox="true"></th>
+            <th data-field="id_name">菜单ID</th>
+            <th data-field="we_menu_name">主菜单名称</th>
+            <th data-field="we_menu_type">菜单级别</th>
+            <th data-field="we_menu_leftid">父级ID</th>
+            <th data-field="we_menu_typeval" data-align="center">菜单操作</th>
+            <th data-field="we_menu_order" data-align="center">菜单排序(数字越大越靠前)</th>
+            <th data-field="status" data-align="center">菜单状态</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id="v">
+        <tr id="item{$v.id}">
+            <td><input type="checkbox" name="id" value="{$v.id}" /></td>
+            <td>{$v.id}</td>
+            <td>{$v.we_menu_name}</td>
+            <td><if condition="$v.we_menu_leftid eq 0"><b>父菜单</b><else/>二级子菜单</if></td>
+            <td>{$v.we_menu_leftid}</td>
+            <td>{$v.we_menu_typeval}</td>
+            <td><input type="text"  id="order{$v.id}" onchange="_setOrder({$v.id});" style="width:35px;text-align: center" name="order" value="{$v.we_menu_order}"/> </td>
+            <td data-align="center">
+                <eq name="v.status" value="1">
+                            <button id="status{$v.id}" value="{$v.id}" onclick="_setStatus({$v.id},{$v.status});"   type="button" class='btn btn-info'>启用</button>
+                            <else/>
+                            <button id="status{$v.id}"   onclick="_setStatus({$v.id},{$v.status});"   type="button" class='btn btn-default'>禁用</button>
+                        </eq>
+            </td>
+            <td>
+                <button onclick="_layOpenUrl('{:U('edit',array('id'=>$v['id']))}', '修改')" class="btn btn-info " type="button"><i class="fa fa-paste"></i> 编辑/查看</button>
+                <button onclick="_del({$v.id});" class="btn btn-danger" type="button"><i class="fa fa-trash"></i> 删除</button>
+            </td>
+        </tr>
+        </volist>
+        </tbody>
+    </table>
+    <div class="pages">
+    {$page}
+</div>
+</div>
+    <br><br>
+    <div class="col-sm-12">
+        <button type="button"  class="btn  btn-success"><a href="{:U('show')}">预览菜单微信界面</a></button>
+
+        <br>  <br> <br>
+        <div class="col-sm-3 jumbotron"><br><br><br><br><br><br>
+        <br>
+        <br>
+
+
+        <div class="btn-group">
+            <volist name="fa_menu" id="fa">
+            <div class="btn-group">
+                <div class="dropup">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">{$fa.we_menu_name}
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <volist name="menu" id="son">
+                            <if condition="$fa.id eq $son.we_menu_leftid">
+
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">{$son.we_menu_name}</a></li>
+                                <else/>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">{$fa.id}位置{$son.we_menu_leftid}</a></li>
+                            </if>
+                        </volist>
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+            </volist>
+
+
+        </div>
+</div>
+        </div>
+
+
+
+
+
+
+
+</block>
+<block name="js">
+<!-- Bootstrap table -->
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js"></script>
+<script src="__PUBLIC__/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script>
+
+    function _finish() {
+        // event.stopPropagation();
+        layer.confirm('请确认您的父菜单不超过三个,每个父菜单下的子菜单不能超过五个,如果有误无法完成菜单的提交',{btn: ['我已确认','返回修改']},function(index){
+            _ajax({
+                "url": "{:U('finish')}",
+                "data": {},
+                "success": function(data){
+                    if(data.code == 200){
+                        layer.msg(data.msg,{icon: 1,time: 700});
+                    } else {
+                        layer.alert( data.msg );
+                    }
+                }
+
+            });
+            layer.close(index);
+        },function(index){
+            layer.close(index);
+        })
+    }
+
+    function _setStatus(id,statu) {
+           // event.stopPropagation();
+            layer.confirm('确定修改状态？',{btn: ['修改','取消']},function(index){
+                _ajax({
+                    "url": "{:U('setStatu')}",
+                    "data": {id: id,stat:statu},
+                    "success": function(data){
+                        if(data.code == 200){
+                            layer.msg(data.msg,{icon: 1,time: 700});
+                            var cl = $('#status'+id).attr('class');
+                            cl = (cl=='btn btn-info')?'btn btn-default':'btn btn-info';
+                            $('#status'+id).text(data.data);
+                            $('#status'+id).attr('class',cl);
+
+                        } else {
+                            layer.alert( data.msg );
+                        }
+                    },
+                    "param": id
+                });
+                layer.close(index);
+            },function(index){
+                layer.close(index);
+            })
+        }
+    function _setOrder(id) {
+        layer.confirm('确定修改排序？',{btn: ['修改','取消']},function(index){
+            _ajax({
+                "url": "{:U('setOrder')}",
+                "data": {id: id,order:$("#order"+id).val()},
+                "success": function(data){
+                    if(data.code == 200){
+                        layer.msg(data.msg,{icon: 1,time: 700});
+
+                    } else {
+                        layer.alert( data.msg );
+                    }
+                }
+            });
+            layer.close(index);
+        },function(index){
+            layer.close(index);
+        })
+    }
+
+
+    function _del(id){
+        layer.confirm('确定删除用户？',{btn: ['删除','取消']},function(index){
+            _ajax({
+                url: "{:U('del')}",
+                data: {id: id},
+                success: function(data){
+                    console.log(data)
+                    if(data.code == 200){
+                        $('#item'+id).hide();
+                        layer.msg(data.msg,{icon: 1,time: 700});
+                    } else {
+                        layer.alert(data.msg);
+                    }
+                },
+                param: id
+            });
+            layer.close(index);
+        },function(index){
+            layer.close(index);
+        })
+    }
+
+</script>
+</block>

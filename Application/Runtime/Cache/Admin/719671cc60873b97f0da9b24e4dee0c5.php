@@ -1,0 +1,70 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>鲁豫食府欢迎您</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+
+</head>
+<body>
+<center>
+
+<div class="page-group" style="position: absolute; left: 50%;margin-left:-170px " >
+    <div class="page page-current" style="width: 375px;height: 667px;background-color: #00a2d4">
+        <!-- 你的htmfsadfsadfasdfl代码 -->
+
+
+        <header class="bar bar-nav">
+            <a class="button button-link button-nav pull-left" href="javascript:window.opener=null;window.close();" data-transition='slide-out'>
+                <span class="icon icon-left"></span>
+                返回
+            </a>
+            <h1 style="font-weight: 600;font-size: 26px;" class="title">鲁豫食府新闻</h1>
+        </header>
+
+        <div class="content">
+            <!-- 这里是页面内容区 -->
+
+
+            <div class="page-index">
+                <div class="card">
+                    <div style="background-color: #BAC498;border: dashed 1px orange;font-size: 22px;font-weight: 500;" valign="bottom" class="card-header color-white no-border"><?php echo ($data["title"]); ?></div>
+                    <div class="card-content">
+                        <div class="card-content-inner">
+                            <p class="color-gray" style="font-size: 18px;color:slategray">发表于 <?php echo ($data["addtime"]); ?></p>
+                            <div> <img src="<?php echo ($img); ?>"  style="height: 80px;border:2px dotted orange;  width: 100%"></div>
+                            <div><?php echo ($desc); ?></div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="link">点赞</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!-- 你的htmfsadfsadfasdfl代码 -->
+
+    </div>
+</div>
+</div>
+</center>
+
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+
+</body>
+</html>
